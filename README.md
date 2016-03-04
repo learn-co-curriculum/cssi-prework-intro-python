@@ -8,6 +8,7 @@ You have learned three languages so far - HTML, CSS and JavaScript. Each one had
 + Understand Basic Concepts in Python
 + Print a String
 + Math Operations
++ Variables in Python
 + Writing and Running a Script
 
 
@@ -40,7 +41,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 The interpreter allows you to run individual lines of Python code one at a time. For now, all you need to know is that if you invoke the command python, it will open up the interactive mode and allow you to try things out quickly.
 
-Let's try some things out
+###Strings
+Just like in JavaScript, any character or group of characters can be wrapped in single or double quotes to be interpreted as a string. Python has it's own string methods which you will learn about in an upcoming lesson.
 ```
 >>> print 'hello world'
 hello world
@@ -54,6 +56,7 @@ hello world
 ```
 The interpreter tries to be helpful and prints out the return value of every line that we enter. When we just enter a string, Python tells us that the line would evaluate to a string.
 
+### Math Operations
 Let's try some basic math. The basic math operations work the same as they do in JavaScript.
 ```
 >>> 6 + 8
@@ -67,8 +70,8 @@ Python math can get pretty complicated, but arithmetic is pretty straightforward
 >>> (7 + 6) * 8
 ```
 
+### Operators and Boolean Values
 Just like JavaScript, Python has the == operator for checking equality. It returns a boolean value, which is either True or False (note that Javascript returns lowercase true and false).
-
 
 ```
 >>> 5==4
@@ -80,7 +83,31 @@ True
 ```
 Most of our results are similar to what we learned about in JavaScript. Did you notice the second command though? In JavaScript `5=="5"` is true. JavaScript has type coercion, which means that when two different data types are compared in an operator, one will be forced to match the other's type. In general, Python is much less forgiving when it comes to data types, so it is a great language to hold ourselves accountable for well-written code.
 
+### Variables
+In Python we don't need to explicitly declare a variable with  'var'. The naming conventions are also different. In JavaScript, use camelCase. In Python, use all lowercase letters. Variable names can not have spaces but instead use underscores this_style_is_called_snake_case.
+```
+> my_variable = 15
+> my_variable + 10
+25
+```
 
+Just like in JavaScript, we can change reassign variables at any time.
+```
+>>> minion = "Kevin"
+>>> print minion
+Kevin
+```
+What will happen when we run the following?
+```
+>>> name = "Kevin"
+>>> name = "Carl"
+>>> print name
+```
+
+On the first line, we assigned the variable name to store Kevin. On the next line, we reassigned the value of the variable name to store Carl. Each variable can only store one value. This is because at it's core a variable is an assigned space in memory, which can only be occupied by one value. So when we print name on the last line, we will the most recent value that was assigned to name: Carl.
+
+
+### Exiting the Interpreter
 Close the prompt with
 ```
 >>> quit()
