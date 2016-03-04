@@ -1,9 +1,9 @@
 
 #Intro to Python
-You have learned three languages so far - HTML, CSS and JavaScript. Each one had it's own purpose: HTML for the content and structure of a page, CSS for the style of a page and JavaScript for some interactivity. All three of those languages are the building blocks of the front-end of an app, the parts that the user sees and manipulates. The next section of the prework goes to the other side of the action, the behind-the-scenes backend. You will learn how to write Python programs and build the framework for a fully functional web app.
+You have learned three languages so far - HTML, CSS and JavaScript. Each one had it's own purpose: HTML for the content and structure of a page, CSS for the style of a page and JavaScript for some interactivity. All three of those languages are the building blocks of the front-end of an app, the parts that the user sees and manipulates. The next section of the prework goes to the other side of the action, the behind-the-scenes backend. If the front-end as the aesthetic of a car (what it looks and feels like), the back-end is the engine. In this unit, you will learn how to write Python programs and build the framework for a fully functional web app.
 
 ##Objectives:
-+ Understand why Backend Languages are Necessary
++ Understand why back-end languages are necessary
 +	Interact with Python (interpreter, text editor + run from command line)
 + Understand Basic Concepts in Python
 + Print a String
@@ -13,11 +13,11 @@ You have learned three languages so far - HTML, CSS and JavaScript. Each one had
 
 
 ## Python - Our Backend Language
-All web-applications need to have a front-end. By definition they need to get information from a user. Generally (but not always) web-applications need to have a back-end to store that data, access  other data and route everything appropriately. The back-end is like the Oz behind the curtain, it is the framework that allows an app to pass data around in response to the requests of the user.
+All web-applications need to have a front-end. By definition, they need to get information from a user or other data source. Generally, (but not always) web-applications need to have a back-end to store that data, access other data and route everything appropriately. The back-end is like the Oz behind the curtain, it is the framework that allows an app to pass data around in response to the requests of the user.
 
-There are many types of back-end languages including Ruby, Java (no relation to JavaScript) and Python. Python is a language that is ubiquitous at Google and for good reason. Python has a shallow learning curve, it's syntax makes it readable and thus easy to reproduce, and Python is extremely powerful.
+There are many types of back-end languages including Ruby, Java (no relation to JavaScript) and Python. Python is a language that is ubiquitous at Google and for good reason: it has has a shallow learning curve, it's syntax makes it readable and  easy to reproduce, and it is extremely powerful.
 
-Like JavaScript (an unlike HTML and CSS), Python is a scripting language - it is used to perform tasks. Those tasks might be data modeling and forecasting, binding together the pieces of a game engine, or, as you'll be using it, running a web app. When we run Python, we don't run it through the browser, we run it directly on our machines.
+Like JavaScript (and unlike HTML and CSS), Python is a scripting language - it is used to perform tasks. Those tasks might be data modeling and forecasting, binding together the pieces of a game engine, or, as you'll be using it, running a web app. When we run Python, we don't run it through the browser, we run it directly on our machines. Since you've already spent a significant amount of time learning JavaScript, you'll see that Python (and almost any other programming language) is very similar in terms of the fundamentals: variables, functions, conditionals, iterations, etc. The big differences are syntactic - that is, in the *way* things are written as opposted to what those things actually are. Pay attention to the differences in JavaScript and Python syntax as you jump in to this unit!
 
 ##Python Interpreter vs Python Script
 
@@ -39,7 +39,7 @@ Python 2.5.1 (r251:54863, Jun 17 2009, 20:37:34)
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
-The interpreter allows you to run individual lines of Python code one at a time. For now, all you need to know is that if you invoke the command python, it will open up the interactive mode and allow you to try things out quickly.
+The interpreter allows you to run individual lines of Python code one at a time. For now, all you need to know is that if you invoke the command `python`, it will open up the interactive mode (sometimes called a "REPL") and allow you to try things out quickly.
 
 ###Strings
 Just like in JavaScript, any character or group of characters can be wrapped in single or double quotes to be interpreted as a string. Python has it's own string methods which you will learn about in an upcoming lesson.
@@ -47,7 +47,7 @@ Just like in JavaScript, any character or group of characters can be wrapped in 
 >>> print 'hello world'
 hello world
 ```
-`print` is Python's equivalent of console.log in JavaScript. It lets us print a string out. What happens if we just type the string?
+`print` is Python's equivalent of `console.log()` in JavaScript. It lets us print a string out. What happens if we just type the string?
 
 ```
 >>> 'hello world'
@@ -81,10 +81,10 @@ False
 >>> 'five' == 'five'
 True
 ```
-Most of our results are similar to what we learned about in JavaScript. Did you notice the second command though? In JavaScript `5=="5"` is true. JavaScript has type coercion, which means that when two different data types are compared in an operator, one will be forced to match the other's type. In general, Python is much less forgiving when it comes to data types, so it is a great language to hold ourselves accountable for well-written code.
+Most of our results are similar to what we learned about in JavaScript. Did you notice the second command though? In JavaScript `5=="5"` is true. JavaScript has *type coercion*, which means that when two different data types are compared in an operator, one will be forced to match the other's type. In general, Python is much less forgiving when it comes to data types, so it is a great language to hold ourselves accountable for well-written code.
 
 ### Variables
-In Python we don't need to explicitly declare a variable with  'var'. The naming conventions are also different. In JavaScript, use camelCase. In Python, use all lowercase letters. Variable names can not have spaces but instead use underscores this_style_is_called_snake_case.
+In Python we don't need to explicitly declare a variable with  'var'. The naming conventions are also different. In JavaScript, use camelCase. In Python, use all lowercase letters. Variable names can not have spaces but instead use underscores: this_style_is_called_snake_case.
 ```
 > my_variable = 15
 > my_variable + 10
@@ -104,7 +104,7 @@ What will happen when we run the following?
 >>> print name
 ```
 
-On the first line, we assigned the variable name to store Kevin. On the next line, we reassigned the value of the variable name to store Carl. Each variable can only store one value. This is because at it's core a variable is an assigned space in memory, which can only be occupied by one value. So when we print name on the last line, we will the most recent value that was assigned to name: Carl.
+On the first line, we assigned the variable name to store Kevin. On the next line, we reassigned the value of the variable name to store Carl. Each variable can only store one value. This is because at its core, a variable is an assigned space in memory which can only be occupied by one value. So when we print name on the last line, we will print the most recent value that was assigned to name: Carl.
 
 
 ### Exiting the Interpreter
@@ -119,7 +119,7 @@ A few thing to note:
 
 ##Creating and Running a Python Script
 
-In order to save our Python programs, we will need to create a Python script. With JavaScript, our files ended with the extension `.js`. In Python, our files will ned with the `.py` extension. Let's walk though how to execute a new Python script. First, open up the terminal and make a new directory for all of your Python prework: `mkdir python_practice`.
+In order to save our Python programs, we will need to create a Python script. With JavaScript, our files ended with the extension `.js`. In Python, our files will end with the `.py` extension. Let's walk though how to execute a new Python script. First, open up the terminal and make a new directory for all of your Python prework: `mkdir python_practice`.
 
 Then execute the following commands in the terminal to change into your new directory, create a new script, practice.py and to open that script in Atom - our editor.
 ```
