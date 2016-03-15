@@ -1,15 +1,16 @@
 
 #Intro to Python
-You have learned three languages so far - HTML, CSS and JavaScript. Each one had it's own purpose: HTML for the content and structure of a page, CSS for the style of a page and JavaScript for some interactivity. All three of those languages are the building blocks of the front-end of an app, the parts that the user sees and manipulates. The next section of the prework goes to the other side of the action, the behind-the-scenes backend. If the front-end as the aesthetic of a car (what it looks and feels like), the back-end is the engine. In this unit, you will learn how to write Python programs and build the framework for a fully functional web app.
 
 ##Objectives:
 + Understand why back-end languages are necessary
 +	Interact with Python (interpreter, text editor + run from command line)
 + Understand Basic Concepts in Python
 + Print a String
-+ Math Operations
-+ Variables in Python
-+ Writing and Running a Script
++ Use Math Operations
++ Create and use variables in Python
++ Write and Run a Script from the console
+
+You have learned three languages so far - HTML, CSS and JavaScript. Each one had its own purpose: HTML for the content and structure of a page, CSS for the style of a page and JavaScript for interactivity. All three of those languages are the building blocks of the **front-end** of an app, the parts that the user sees and manipulates. The next section of the prework goes to the other side of the action, the behind-the-scenes **back-end**. If the front-end is the aesthetic of a car (what it looks and feels like), the back-end is the engine. In this unit, you will learn how to write Python programs and build the framework for a fully functional web app.
 
 
 ## Python - Our Backend Language
