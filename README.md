@@ -2,23 +2,24 @@
 #Intro to Python
 
 ##Objectives:
-+ Understand why back-end languages are necessary
-+	Interact with Python (interpreter, text editor + run from command line)
-+ Understand Basic Concepts in Python
-+ Print a String
-+ Use Math Operations
-+ Create and use variables in Python
-+ Write and Run a Script from the console
 
-You have learned three languages so far - HTML, CSS and JavaScript. Each one had its own purpose: HTML for the content and structure of a page, CSS for the style of a page and JavaScript for interactivity. All three of those languages are the building blocks of the **front-end** of an app, the parts that the user sees and manipulates. The next section of the prework goes to the other side of the action, the behind-the-scenes **back-end**. If the front-end is the aesthetic of a car (what it looks and feels like), the back-end is the engine. In this unit, you will learn how to write Python programs and build the framework for a fully functional web app.
++ Explaing why back-end languages are necessary
++	Interact with Python (interpreter, text editor + run from command line)
++ Describe basic concepts in Python
++ Print a string
++ Use math operations
++ Create and use variables in Python
++ Write and run a script from the console
+
+You have learned three languages so far - HTML, CSS, and JavaScript. Each one had its own purpose: HTML for the content and structure of a page, CSS for the style of a page, and JavaScript for interactivity. All three of those languages are the building blocks of the **front-end** of an app, the parts that the user sees and manipulates. The next section of the prework goes to the other side of the action, the behind-the-scenes **back-end**. If the front-end is the aesthetic of a car (what it looks and feels like), the back-end is the engine. In this unit, you will learn how to write Python programs and build the framework for a fully functional web app.
 
 
 ## Python - Our Backend Language
-All web-applications need to have a front-end. By definition, they need to get information from a user or other data source. Generally, (but not always) web-applications need to have a back-end to store that data, access other data and route everything appropriately. The back-end is like the Oz behind the curtain, it is the framework that allows an app to pass data around in response to the requests of the user.
+All web-applications need to have a front-end. By definition, they need to get information from a user or other data source. Generally, (but not always) web-applications need to have a back-end to store that data, access other data and route everything appropriately. The back-end is like the Oz behind the curtain; it is the framework that allows an app to pass data around in response to the requests of the user.
 
-There are many types of back-end languages including Ruby, Java (no relation to JavaScript) and Python. Python is a language that is ubiquitous at Google and for good reason: it has has a shallow learning curve, it's syntax makes it readable and  easy to reproduce, and it is extremely powerful.
+There are many types of back-end languages including Ruby, Java (no relation to JavaScript) and Python. Python is a language that is ubiquitous at Google and for good reason: it has a shallow learning curve, its syntax makes it readable and  easy to reproduce, and it is extremely powerful.
 
-Like JavaScript (and unlike HTML and CSS), Python is a scripting language - it is used to perform tasks. Those tasks might be data modeling and forecasting, binding together the pieces of a game engine, or, as you'll be using it, running a web app. When we run Python, we don't run it through the browser, we run it directly on our machines. Since you've already spent a significant amount of time learning JavaScript, you'll see that Python (and almost any other programming language) is very similar in terms of the fundamentals: variables, functions, conditionals, iterations, etc. The big differences are syntactic - that is, in the *way* things are written as opposted to what those things actually are. Pay attention to the differences in JavaScript and Python syntax as you jump in to this unit!
+Like JavaScript (and unlike HTML and CSS), Python is a scripting language - it is used to perform tasks. Those tasks might be data modeling and forecasting, binding together the pieces of a game engine, or, as you'll be using it, running a web app. When we run Python, we don't run it through the browser, but instead we run it directly on our machines. Since you've already spent a significant amount of time learning JavaScript, you'll see that Python (and almost any other programming language) is very similar in terms of the fundamentals: variables, functions, conditionals, iterations, etc. The big differences are syntactic - that is, in the *way* things are written as opposted to what those things actually are. Pay attention to the differences in JavaScript and Python syntax as you jump in to this unit!
 
 ##Python Interpreter vs Python Script
 
@@ -26,12 +27,12 @@ Just like with JavaScript, we can run Python through two ways: the interpreter a
 
 **Python Interpreter** is started from the command line and is most useful when we want to test things out or quickly do a calculation. Just like the JavaScript console, the interpreter evaluates statements and immediately prints the return value back to us.
 
-**Python Scripts** are text files saved with a .py extension and run from the command line. Scripts are full programs - we can save them, change them, share them, and reuse them. Scripts are used to write much more complex code than we could in the interpreter.
+**Python Scripts** are text files saved with a .py extension and that are run from the command line. Scripts are full programs - we can save them, change them, share them, and reuse them. Scripts are used to write much more complex code than we could in the interpreter.
 
 ## The Python Interpreter
 Open your terminal and type...
 ```
-$ python
+ python
 ```
 You'll see something like...
 ```
@@ -43,7 +44,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 The interpreter allows you to run individual lines of Python code one at a time. For now, all you need to know is that if you invoke the command `python`, it will open up the interactive mode (sometimes called a "REPL") and allow you to try things out quickly.
 
 ###Strings
-Just like in JavaScript, any character or group of characters can be wrapped in single or double quotes to be interpreted as a string. Python has it's own string methods which you will learn about in an upcoming lesson.
+Just like in JavaScript, any character or group of characters can be wrapped in single or double quotes to be interpreted as a string. Python has its own string methods which you will learn about in an upcoming lesson.
 ```
 >>> print 'hello world'
 hello world
@@ -138,7 +139,7 @@ Save this in Atom.
 To run scripts from the command line, we just need to call `python` and then the name of your script that we want to run, like this:
 
 ```
-$ python practice.py
+ python practice.py
 ```
 
 A few things to note here:
