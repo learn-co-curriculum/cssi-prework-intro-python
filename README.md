@@ -1,7 +1,7 @@
 
-#Intro to Python
+# Intro to Python
 
-##Objectives:
+## Objectives:
 
 + Explaing why back-end languages are necessary
 +	Interact with Python (interpreter, text editor + run from command line)
@@ -21,7 +21,7 @@ There are many types of back-end languages including Ruby, Java (no relation to 
 
 Like JavaScript (and unlike HTML and CSS), Python is a scripting language - it is used to perform tasks. Those tasks might be data modeling and forecasting, binding together the pieces of a game engine, or, as you'll be using it, running a web app. When we run Python, we don't run it through the browser, but instead we run it directly on our machines. Since you've already spent a significant amount of time learning JavaScript, you'll see that Python (and almost any other programming language) is very similar in terms of the fundamentals: variables, functions, conditionals, iterations, etc. The big differences are syntactic - that is, in the *way* things are written as opposted to what those things actually are. Pay attention to the differences in JavaScript and Python syntax as you jump in to this unit!
 
-##Python Interpreter vs Python Script
+## Python Interpreter vs Python Script
 
 Just like with JavaScript, we can run Python through two ways: the interpreter and a script.
 
@@ -43,7 +43,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 The interpreter allows you to run individual lines of Python code one at a time. For now, all you need to know is that if you invoke the command `python`, it will open up the interactive mode (sometimes called a "REPL") and allow you to try things out quickly.
 
-###Strings
+### Strings
 Just like in JavaScript, any character or group of characters can be wrapped in single or double quotes to be interpreted as a string. Python has its own string methods which you will learn about in an upcoming lesson.
 ```
 >>> print 'hello world'
